@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: #E0FBFC;
+}
+
+/*  nav-bar */
+header {
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #293241;
+}
+
+#logo span {
+    color: #E6BAF8;
+}
+
+.wallet-btn {
+    padding: 1rem;
+    background: #E6BAF8;
+    border-radius: 3rem;
+    color: #293241;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* hero slides */
+.hero-slides {
+    position: relative;
+    background-color: #293241;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-slide {
+    padding: 1rem;
+    background-color: white;
+    border: 3px solid #293241;
+    color: #293241;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.slide-text {
+    height: 10rem;
+}
+
+.slide-text h3,
+.slide-text h2 {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.slide-text h3 {
+    color: #293241;
+    font-size: 2.4rem;
+}
+
+.slide-text h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.slide2 {
+    position: absolute;
+    margin: auto;
+}
+
+/* hero description */
+.hero-desc {
+    flex-basis: 50rem;
+}
+
+.hero-text {
+    font-size: 4.6rem;
+    font-weight: 700;
+    color: #293241;
+    margin-bottom: 2rem;
+}
+
+.explore-btn {
+    padding: 1rem 2rem;
+    border: 3px solid #E6BAF8;
+    color: #293241;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
