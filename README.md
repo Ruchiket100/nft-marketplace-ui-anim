@@ -1,2 +1,4 @@
 # NFT marketplace UI
-** gsap | scrollmagic |  Javascript | CSS | HTML**
+## gsap |  Javascript | CSS | HTML
+
+!(live website link)[https://ruchiket100.github.io/nft-marketplace-ui-anim/]
